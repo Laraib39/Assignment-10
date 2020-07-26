@@ -1,0 +1,123 @@
+@media screen and (max-width: 500px){
+    *{
+        margin: 0px;
+    }
+    input{
+        width: 90px !important;
+    }  
+}
+*{
+    padding: 0;
+    /* margin: 0 auto; */
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    /* background-color: black; */
+    background-image: url(light\ blue.png);
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-size: 50px;
+    font-weight: 60;
+    font-weight: bolder;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    border-bottom: 5px solid #fff;
+    display: block;
+}
+.first{
+    color: rgba(39, 39, 160, 0.993);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-style: inherit;
+}
+.main_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.main_div .input{
+    padding: 0.5rem 1rem;
+    height: 50px;
+    outline: none;
+    background-color: #fff;
+    border: none;
+    width: 450px;
+    font-size: 1.15rem;
+    margin: 0.25rem;
+    border-radius: 25px;
+}
+.addButton{
+    height: 50px;
+    width: 70px;
+    border-radius: 25px;
+    font-weight: bold; 
+    font-size: medium;
+    outline: none;
+    border: none;
+    background-color: rgba(40, 40, 151, 0.993);
+    color: #fff ;
+    margin: 0.5px;
+    cursor: pointer;
+}
+.delAllButton{
+    height: 50px;
+    width: 130px;
+    border-radius: 25px;
+    font-weight: bold; 
+    font-size: medium;
+    outline: none;
+    border: none;
+    background-color:rgba(40, 40, 151, 0.993);
+    color: #fff ;
+    margin: 5px;
+    cursor: pointer;
+}
+.addButton:hover, .delAllButton:hover{
+    opacity: 0.7;
+}
+.main_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+}
+.item{
+    padding: 0.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 4px solid #fff;
+}
+.item_input{
+    background:none;
+    outline: none;
+    border: none;
+    color: #fff;
+    width: 350px;
+    font-size: 1.4rem;
+}
+.editButton{
+    font-size: 1.4rem;
+    margin:0 0.75rem;
+    color: rgba(40, 40, 151, 0.993);
+    font-weight: bold;
+    background:none;
+    outline: none;
+    border: none; 
+    cursor: pointer;
+}
+.delButton{
+    font-size: 1.4rem;
+    margin:0 0.75rem;
+    color: red;
+    font-weight: bold;
+    background:none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
